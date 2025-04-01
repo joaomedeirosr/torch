@@ -6,13 +6,6 @@ Esse repositório visa ser um guia introdutório ao **PyTorch**.
 
 PyTorch é um framework de Deep Learning desenvolido pelo Facebook AI Research (FAIR).
 
-## Mantenedores 
-
-Esse reposistório é mantenido pelos pesquisadores:
-
-- João Vitor Medereiros Rocha
-- Otávio Ribeiro Moreira da Costa
-
 # Indíce de Conteúdos
 
 ## Parte 1: Conceitos fudamentais sobre Tensores PyTorch
@@ -44,3 +37,11 @@ Esse reposistório é mantenido pelos pesquisadores:
 - [Broadcasting](tensors_broadcasting.ipynb)
 - [Seeds](pytorch_seed.ipynb)
 - [Save/load Tensors](save_load_tensors.ipynb)
+
+
+## Team 
+This repo is maintained by:
+
+| [![Joao Victor Rocha](https://github.com/joaomedeirosr.png?size=100)](https://github.com/joaomedeirosr) | [![Otávio Ribeiro](https://github.com/OtavioRMC.png?size=100)](https://github.com/OtavioRMC) |
+|:--:|:--:|
+| [Joao Victor Rocha](https://github.com/joaomedeirosr) | [Otávio Ribeiro](https://github.com/OtavioRMC) |
