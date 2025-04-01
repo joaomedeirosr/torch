@@ -32,7 +32,7 @@ PyTorch é um framework de Deep Learning desenvolido pelo Facebook AI Research (
 - [Dataset Class](dataset_class.ipynb)
 - [Dataloader Class](dataloader_class.ipynb)
 
-## Parte 7 Tópicos Avançados
+## Parte 7: Tópicos Avançados
 - [Uso de GPU](gpu.ipynb)
 - [Broadcasting](tensors_broadcasting.ipynb)
 - [Seeds](pytorch_seed.ipynb)
