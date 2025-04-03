@@ -21,7 +21,7 @@ PyTorch é um framework de Deep Learning desenvolido pelo Facebook AI Research (
 
 ## Parte 4: Operações com Tensores
 - [Slicing](slice_tensors.ipynb)
-- [Transpoisção](tensor_transpose.ipynb)
+- [Transposição](tensor_transpose.ipynb)
 - [Produto Escalar(Dot Produt)](tensors_dotproduct.ipynb)
 - [Métodos Matriciais](matrice_methods.ipynb)
 
