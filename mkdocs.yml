@@ -14,18 +14,18 @@ theme:
     - navigation.top
   palette:
     # Palette toggle for light mode
-    - scheme: black
-      primary: black
+    - scheme: default
+      primary: deep purple
       toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+        icon: material/weather-sunny 
+        name: Modo claro
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: black
+      primary: deep purple
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Modo escuro
 
 markdown_extensions:
   - meta
@@ -44,6 +44,16 @@ plugins:
  - mkdocs-jupyter:
     include_source: True
  - search
+
+fonts:
+  icon: material/format-font
+  preferences:
+    - text: Default
+    - text: Roboto
+      code: Roboto Mono
+    - text: OpenDyslexic
+      code: OpenDyslexicMono
+      src: https://fonts.cdnfonts.com/css/opendyslexic
 
 edit_uri: ""
 
