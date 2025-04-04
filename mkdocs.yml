@@ -1,0 +1,75 @@
+site_name: Getting Started with PyTorch
+site_url: ""
+site_description: Learn Pytorch fundamentals
+
+repo_url: ""
+repo_name: ""
+
+theme:
+  name: material
+  logo: ""
+  favicon: 
+  features:
+    - navigation.instant
+    - navigation.top
+  palette:
+    # Palette toggle for light mode
+    - scheme: black
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  
+plugins:
+ - mkdocs-jupyter:
+    include_source: True
+ - search
+
+edit_uri: ""
+
+nav:
+  - Home: 'index.md'
+  - 00. Getting Started with PyTorch: 'dataloader_class.ipynb'
+  - 01. PyTorch Machine Learning Workflow: ''
+  - 02. PyTorch Neural Network Classification: ''
+  - 03. PyTorch Computer Vision: ''
+  - 04. PyTorch Custom Datasets: ''
+  - 05. PyTorch Going Modular: ''
+  - 06. PyTorch Transfer Learning: ''
+  - 07. PyTorch Experiment Tracking: ''
+  - 08. Replicating Machine Learning Research Papers with PyTorch: ''
+  - 09. Deploying PyTorch Machine Learning Models: ''
+  - A Quick PyTorch 2 Tutorial: ''
+  - PyTorch Extra Resources: ''
+  - PyTorch Cheatsheet: ''
+  - Three Most Common PyTorch Errors: ''
+  # - Test 00 as markdown: '00_pytorch_fundamentals.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/joaomedeirosr/torch
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/
+
+copyright: Copyright &copy; 2025 João Victor Rocha
