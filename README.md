@@ -1,6 +1,6 @@
 # Introdução Ao PyTorch
 
-![Torch-logo](imgs/torch_logo.png)
+![Torch-logo](images/torch_logo.png)
 
 Esse repositório visa ser um guia introdutório ao **PyTorch**.
 
