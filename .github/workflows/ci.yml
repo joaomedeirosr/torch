@@ -28,15 +28,11 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install git+https://${{ secrets.GH_MATERIAL_MKDOCS_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
+      - run: pip install mkdocs-material
       - run: pip install mkdocs-jupyter
       - run: pip install pillow cairosvg # install social share card plugins
 #       - run: pip install jupyter
       - run: cp *.ipynb docs/ # copy all notebooks to docs folder
-      - run: cp 05_pytorch_going_modular.md docs/ # copy markdown section for 05 to docs folder
-      - run: cp extras/pytorch_2_intro.ipynb docs/ # copy PyTorch 2.0 section to docs 
-      - run: cp extras/pytorch_extra_resources.md docs/
-      - run: cp extras/pytorch_cheatsheet.ipynb docs/
-      - run: cp extras/pytorch_most_common_errors.ipynb docs/
+
       # - run: cp extras/00_pytorch_fundamentals.md docs/
       - run: mkdocs gh-deploy --force
