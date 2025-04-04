@@ -7,7 +7,7 @@ repo_name: joaomedeirosr/torch
 
 theme:
   name: material
-  logo: ""
+  logo: "assets/logo.png"
   favicon: 
   features:
     - navigation.instant
