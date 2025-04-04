@@ -1,9 +1,9 @@
 site_name: Getting Started with PyTorch
-site_url: ""
+site_url: https://joaomedeirosr.github.io/torch/
 site_description: Learn Pytorch fundamentals
 
-repo_url: ""
-repo_name: ""
+repo_url: https://github.com/joaomedeirosr/torch
+repo_name: joaomedeirosr/torch
 
 theme:
   name: material
